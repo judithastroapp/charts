@@ -129,11 +129,11 @@ class SimpleLegendEntryLayout implements LegendEntryLayout {
     Color? color = textStyle?.color != null
         ? ColorUtil.toDartColor(textStyle!.color!)
         : null;
-    if (isHidden) {
-      // Use a default color for hidden legend entries if none is provided.
-      color ??= Theme.of(context).textTheme.bodyText2!.color;
-      color = color!.withOpacity(0.26);
-    }
+    // if (isHidden) {
+    //   // Use a default color for hidden legend entries if none is provided.
+    //   color ??= textStyle!.color!;
+    //   color = color!.withOpacity(0.26);
+    // }
 
     return new TextStyle(
         inherit: true,
