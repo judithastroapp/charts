@@ -1,5 +1,5 @@
 name: charts_common
-version: 0.12.0
+version: 0.13.0
 description: A common library for charting packages.
 homepage: https://github.com/google/charts
 
@@ -8,7 +8,7 @@ environment:
 
 dependencies:
   collection: ^1.14.5
-  intl: ">=0.15.2 < 0.18.0"
+  intl: ^0.19.0
   logging: ^1.0.2
   meta: ^1.1.1
   vector_math: ^2.0.8
